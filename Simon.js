@@ -1,7 +1,7 @@
 // Any Key press: Game start -->(button flash) Level 1 
 // Check Button press by user  is same as generated game sequence of light.
 // track evey button : Event Listener:
-
+/*
 let gameSeq = [];
 let userSeq = [];
 
@@ -98,3 +98,4 @@ const sounds = {
     gameOver: new Audio("JavaScript_Apna/JS_Project/SimonGame/sounds/red.mp3")
 }
 
+*/
