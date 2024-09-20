@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="Simon.css">
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <h2>Press 1 to start</h2>
+    <h4 id="ruleLink"> <a href="#rule" style="text-decoration: none;"> See the Rule</a></h4>
+
+    <div class="btn-container">  
+        <div class="line-one">
+            <div type="button" class="btn red" id="red">1</div>
+            <div type="button" class="btn yellow" id="yellow">3</div>
+        </div>
+
+        <div class="line-two">
+            <div type="button"  class="btn green" id="green">2</div>
+            <div type="button"  class="btn purple" id="purple"> 4</div>
+        </div>
+    </div>
+    <footer>
+        <h3>How to play the Simon Game</h3>
+        <ul class="Rule" id="rule">
+            <li> <b>Objective:</b> The goal of the game is to repeat an increasingly long sequence of colors or sounds in the correct order as presented by the game</li>
+            <li><b>Gameplay:</b>Simon will flash a sequence of colors (each associated with a sound) on its panel. The player must replicate this sequence by pressing the corresponding buttons.</li>
+            <li><b>Starting the Game:</b> The game starts with Simon randomly flashing one color.The player must press the button that corresponds to the flashed color.</li>
+            <li><b>Increasing Difficulty:</b>
+
+                After the player successfully repeats the initial sequence, Simon will add another color to the sequence.
+                The player must now repeat the entire sequence (including the new color) in the correct order.
+                With each round, the sequence gets longer by one additional color.</li>
+            <li><b>Winning and Losing:</b>
+
+                If the player inputs the correct sequence, they move on to the next round, where a new color is added.
+                If the player inputs the sequence incorrectly at any point, the game is over.</li>
+            <li><b>Speed:</b>
+
+                As the game progresses, Simon may speed up the sequence, making it harder to follow.</li>
+            <li><b>Memory:</b>
+
+                The game tests the player's memory, as they need to remember longer and longer sequences of colors/sounds.</li>
+            <li><b>Single-player or Multiplayer:</b>
+
+                The game can be played solo or in a multiplayer mode, where players take turns repeating the sequence. In multiplayer, when one player makes a mistake, the next player attempts the sequence.</li>    
+        </ul>
+    </footer>
+    <script src="Simon2.js"></script>
+</body>
+</html>
