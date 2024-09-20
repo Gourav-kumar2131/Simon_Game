@@ -26,10 +26,10 @@ Progressive Difficulty: The game becomes more challenging as the sequence gets l
 Pure Vanilla JavaScript: No external libraries are used, ensuring that the core logic and structure are easily understandable.
 
 **How to Play**<br>
-Watch the sequence: The game will flash colors and play sounds in a specific order.
-Repeat the sequence: Click the buttons in the same order that the lights and sounds appeared.
-Progress through rounds: With each round, the sequence becomes longer and harder to memorize.
-Score: The game continues until you make a mistake. Try to beat your high score by remembering the longest sequence!
+1. **Watch the sequence:** The game will flash colors and play sounds in a specific order.
+2. **Repeat the sequence:** Click the buttons in the same order that the lights and sounds appeared.
+3. **Progress through rounds:** With each round, the sequence becomes longer and harder to memorize.
+4. **Score:** The game continues until you make a mistake. Try to beat your high score by remembering the longest sequence!
 
 **Installation**<br>
 * Clone the repository:
